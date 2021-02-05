@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+
+*{
+  margin:0%;
+  padding: 0%;
+}
+
+
+video {
+ object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navicMainDiv{
+  position: fixed;
+  top: 0%;
+  height: 7%;
+  width: 100%;
+  /* border: 2px solid red; */
+  font-family: 'Indie Flower', cursive;
+  z-index: 3;
+  color: grey;
+
+
+
+
+
+}
+.nesto{
+  background: white;
+  opacity: 0.6;
+  color: lightslategray;
+}
+
+
+.navicMainDivRed{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+.ulClassa{
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid blue; */
+ /* z-index: 3; */
+ display: flex;
+
+
+}
+
+.ulClassaItems{
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.hello{
+  position:absolute;
+  top: 100vh;
+
+  height: 100vh;
+  width: 100%;
+  background: grey;
+}
+
+.textAnimacija{
+  position: absolute;
+  top:40%;
+  left: 10%;
+  right: 10%;
+ 
+  width: 80%;
+  /* border: 2px solid black; */
+  font-family: 'Architects Daughter', cursive;
+}
+
+
+
+
+
+
+
+
+.navicMainDiv768{
+  position: fixed;
+  top: 0%;
+  height: 55%;
+  width: 100%;
+  /* border: 2px solid red; */
+  font-family: 'Indie Flower', cursive;
+  z-index: 3;
+  
+
+ 
+
+
+
+}
+
+
+
+
+
+
+.ul768{
+  height: 50vh;
+  width: 100%;
+  /* border: 2px solid red; */
+
+
+}
+.ul768 ul{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+
+}
+
+.u768{
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: lightslategray;
+
+
+}
+
