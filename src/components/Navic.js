@@ -42,7 +42,7 @@ export default class Navic extends Component {
     }
     scorllChangeBack(){
 
-        if(window.scrollY <= 100 ){
+        if(window.scrollY < 80 ){
             this.setState({
                 laz:true,
 
@@ -194,8 +194,9 @@ export default class Navic extends Component {
 <Row>
 
     <Col>
+ 
    
-    <h2 className="text-center text-primary">{this.state.textAnimacija} </h2>
+  <h2 className="text-center text-primary">{this.state.textAnimacija} </h2>
    
     </Col>
  
