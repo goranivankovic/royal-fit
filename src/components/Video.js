@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import running from '../video/running.mp4'
+import running from '../video/running2.mp4'
 
 
 export default class Video extends Component {
