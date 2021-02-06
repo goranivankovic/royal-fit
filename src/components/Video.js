@@ -23,6 +23,8 @@ export default class Video extends Component {
             <div>
             <div className='videoMainDiv'>
                 <video src={running} id="hg" type="video/mp4" autoPlay={true} muted={true} loop={true}></video>
+                
+   
             </div>
 
        

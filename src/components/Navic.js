@@ -68,8 +68,9 @@ export default class Navic extends Component {
             let navicMainDiv768 =document.querySelector('.navicMainDiv768')
              let ulClassa768 =document.querySelector('.u768');
              ulClassa768.style.display='flex'
-             navicMainDiv768.style.backgroundColor="white"
-             navicMainDiv768.style.opacity='0.65'
+             navicMainDiv768.style.backgroundColor="black"
+             navicMainDiv768.style.opacity='0.55'
+          
            
              
 

@@ -34,9 +34,9 @@ video {
 
 }
 .nesto{
-  background: white;
+  background: black;
   opacity: 0.6;
-  color: lightslategray;
+  color: white;
 }
 
 
@@ -99,7 +99,7 @@ video {
 .navicMainDiv768{
   position: fixed;
   top: 0%;
-  height: 55%;
+  height:65%;
   width: 100%;
   /* border: 2px solid red; */
   font-family: 'Indie Flower', cursive;
@@ -140,7 +140,7 @@ video {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  color: lightslategray;
+  color: white;
 
 
 }
