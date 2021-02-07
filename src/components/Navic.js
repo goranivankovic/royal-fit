@@ -1,7 +1,11 @@
 import React, { Component } from 'react'
-import {Container,Row,Col} from 'react-bootstrap';
+import {Container,Row,Col,Button} from 'react-bootstrap';
 import Media from "react-media";
 import { FaBars} from 'react-icons/fa'
+
+
+import * as Scroll from 'react-scroll';
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import Anime from 'react-anime';
 
 
@@ -11,7 +15,9 @@ export default class Navic extends Component {
         this.state={
             laz:false,
             laz2:false,
-            textAnimacija:''
+            textAnimacija:'',
+            broj0:0,
+           
         }
         this.scorllChangeBack=this.scorllChangeBack.bind(this)
         this.funkcija768=this.funkcija768.bind(this)
@@ -40,9 +46,11 @@ export default class Navic extends Component {
 
      
     }
+
+  
     scorllChangeBack(){
 
-        if(window.scrollY < 80 ){
+        if(window.scrollY <= 80 ){
             this.setState({
                 laz:true,
 
@@ -56,10 +64,14 @@ export default class Navic extends Component {
               
 
             })
+          
+
 
         }
 
     }
+   
+
 
     funkcija768(){
 
@@ -130,7 +142,7 @@ export default class Navic extends Component {
                             <ul>
                                 <div className="u768">
                                 <li className="h5">Home</li>
-                                <li className="h5">Gym </li>                               
+                                <Link to="page2" smooth={true} offset={300} duration={1200}><li className="h5">Gym </li>  </Link>                               
                                 <li className="h5">Workouts</li>
                                 <li className="h5">About</li>
                                 <li className="h5">Contact</li>
@@ -144,12 +156,7 @@ export default class Navic extends Component {
                 </Row>
             </Container>
          
-
-
-    <div className="hello">
-
-    </div>
-            
+ 
 
 
 
@@ -169,13 +176,13 @@ export default class Navic extends Component {
                     
                     <Col xs={4}>
                     
-                        <h3 className="text-primary">Royal-fit</h3>
+                  <h3 className="text-primary">Royal-fit</h3>
                         </Col>
                         <Col xs={8} className="ulClassa">
                      
                             <ul className="ulClassaItems">
                                 <li className="h5">Home</li>
-                                <li className="h5">Gym </li>                               
+                           <Link to="page2" smooth={true} duration={1200} offset={-50}><li className="h5">Gym </li>  </Link>                                
                                 <li className="h5">Workouts</li>
                                 <li className="h5">About</li>
                                 <li className="h5">Contact</li>
@@ -197,6 +204,7 @@ export default class Navic extends Component {
  
    
   <h2 className="text-center text-primary">{this.state.textAnimacija} </h2>
+
    
     </Col>
  
@@ -210,9 +218,7 @@ export default class Navic extends Component {
          
 
 
-    <div className="hello">
-
-    </div>
+   
             
 
 
