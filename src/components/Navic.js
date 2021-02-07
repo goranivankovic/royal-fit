@@ -126,7 +126,7 @@ export default class Navic extends Component {
                     {matches =>
                       matches ? (
 
-                        <div>
+                        <div id="page1">
                             
                 <Container fluid className='navicMainDiv768'>
               
@@ -141,7 +141,7 @@ export default class Navic extends Component {
                      
                             <ul>
                                 <div className="u768">
-                                <li className="h5">Home</li>
+                             <Link to="page1" smooth={true} offset={0} duration={1200}><li className="h5">Home</li></Link>
                                 <Link to="page2" smooth={true} offset={300} duration={1200}><li className="h5">Gym </li>  </Link>                               
                                 <li className="h5">Workouts</li>
                                 <li className="h5">About</li>
@@ -168,7 +168,7 @@ export default class Navic extends Component {
 
                         ) : (
 
-<div>
+<div id="page1">
                             
                 <Container fluid className={this.state.laz ? 'navicMainDiv' : 'navicMainDiv nesto' }>
               
@@ -181,7 +181,7 @@ export default class Navic extends Component {
                         <Col xs={8} className="ulClassa">
                      
                             <ul className="ulClassaItems">
-                                <li className="h5">Home</li>
+                            <Link to="page1" smooth={true} offset={0} duration={1200}><li className="h5">Home</li></Link>
                            <Link to="page2" smooth={true} duration={1200} offset={-50}><li className="h5">Gym </li>  </Link>                                
                                 <li className="h5">Workouts</li>
                                 <li className="h5">About</li>
