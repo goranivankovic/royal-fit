@@ -204,7 +204,7 @@ export default class Navic extends Component {
                     
                        }}><li className="h5">Workouts</li></Link>
 
-                             <Link to="page4" smooth={true} duration={1200} offset={0} onClick={()=>{
+                             <Link to="page4" smooth={true}  duration={1200} offset={0} onClick={()=>{
                             if(!this.state.laz2){
 
                
@@ -261,7 +261,7 @@ export default class Navic extends Component {
                             <Link to="page1" smooth={true} offset={0} duration={1200}><li className="h5">Home</li></Link>
                            <Link to="page2" smooth={true} duration={1200} offset={-50}><li className="h5">Gym </li>  </Link>                                
                            <Link to="page3" smooth={true} duration={1200} offset={0}><li className="h5">Workouts</li></Link>
-                             <Link to="page4" smooth={true} duration={1200} offset={0}><li className="h5">About</li></Link>
+                             <Link to="page4" smooth={true} duration={1200} offset={-55}><li className="h5">About</li></Link>
                                 <li className="h5">Contact</li>
 
 
