@@ -60,6 +60,7 @@ video {
  display: flex;
 
 
+
 }
 
 .ulClassaItems{
@@ -70,6 +71,7 @@ video {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 }
 .hello{
   position:absolute;
@@ -126,6 +128,7 @@ video {
   height: 50vh;
   width: 100%;
   /* border: 2px solid red; */
+ 
 
 
 }
@@ -134,6 +137,8 @@ video {
   width: 100%;
   height: 100%;
   align-items: center;
+  cursor: pointer;
+ 
 
 }
 
@@ -146,6 +151,7 @@ video {
   justify-content: space-around;
   align-items: center;
   color: white;
+
 
 
 }
@@ -250,7 +256,7 @@ font-family: 'Josefin Sans', sans-serif;
 
 
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 769px) {
   .page2 {
     height: 280vh;
   }
@@ -260,7 +266,7 @@ font-family: 'Josefin Sans', sans-serif;
   }
   .page4{
     position: absolute;
-    top: 930vh;
+    top: 950vh;
   }
 
   .h{
@@ -271,11 +277,11 @@ font-family: 'Josefin Sans', sans-serif;
 
 }
 
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 576px) {
 
   .page4{
     position: absolute;
-    top: 920vh;
+    top: 960vh;
   }
 
   
@@ -288,7 +294,7 @@ font-family: 'Josefin Sans', sans-serif;
 
   .page4{
     position: absolute;
-    top: 890vh;
+    top: 920vh;
   }
 
   
@@ -300,7 +306,7 @@ font-family: 'Josefin Sans', sans-serif;
 
   .page4{
     position: absolute;
-    top: 870vh;
+    top: 900vh;
   }
 
   
@@ -311,7 +317,7 @@ font-family: 'Josefin Sans', sans-serif;
 
   .page4{
     position: absolute;
-    top: 860vh;
+    top:885vh;
   }
 
   
@@ -323,7 +329,7 @@ font-family: 'Josefin Sans', sans-serif;
 
   .page4{
     position: absolute;
-    top: 840vh;
+    top: 860vh;
   }
 
   
@@ -335,7 +341,7 @@ font-family: 'Josefin Sans', sans-serif;
 
   .page4{
     position: absolute;
-    top: 820vh;
+    top: 840vh;
   }
 
   
@@ -354,17 +360,19 @@ font-family: 'Josefin Sans', sans-serif;
 
 
 }
-/* @media only screen and (max-width: 370px) {
+
+@media only screen and (max-width: 370px) {
 
   .page4{
     position: absolute;
     top: 795vh;
   }
 
-  
+   
 
 
 }
+
 @media only screen and (max-width: 350px) {
 
   .page4{
@@ -375,7 +383,7 @@ font-family: 'Josefin Sans', sans-serif;
   
 
 
-} */
+} 
 
 
 
