@@ -9,7 +9,7 @@ export default class Page5 extends Component {
                     <Row className="page5Row">
                         <Col lg={8} xs={10}>
                         <Form>
-                        <Form.Group controlId="formBasicText">
+                        <Form.Group>
     <Form.Label>Enter name</Form.Label>
     <Form.Control type="text" placeholder="Enter name" />
 
