@@ -222,7 +222,28 @@ export default class Navic extends Component {
                                }
                     
                        }}><li className="h5">About</li></Link>     
-                                <li className="h5">Contact</li>
+                            <Link to="page5" smooth={true} offset={0} duration={1200} onClick={()=>{
+                                 if(!this.state.laz2){
+
+               
+                                    let navicMainDiv768 =document.querySelector('.navicMainDiv768')
+                                    let ulClassa768 =document.querySelector('.u768');
+                                    ulClassa768.style.display='none'
+                                    navicMainDiv768.style.backgroundColor="transparent"
+                                    navicMainDiv768.style.opacity='1'
+                              
+                                       
+                              
+                               
+                                   
+                                       this.setState({
+                                           laz2:true
+                                       })
+                        
+                        
+                                   }
+
+                             }}><li className="h5">Contact</li></Link>       
                                </div>
 
 
@@ -262,7 +283,7 @@ export default class Navic extends Component {
                            <Link to="page2" smooth={true} duration={1200} offset={-50}><li className="h5">Gym </li>  </Link>                                
                            <Link to="page3" smooth={true} duration={1200} offset={0}><li className="h5">Workouts</li></Link>
                              <Link to="page4" smooth={true} duration={1200} offset={-55}><li className="h5">About</li></Link>
-                                <li className="h5">Contact</li>
+                             <Link to="page5" smooth={true} duration={1200} offset={0}><li className="h5">Contact</li></Link>    
 
 
 
