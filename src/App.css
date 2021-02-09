@@ -380,6 +380,7 @@ font-family: 'Josefin Sans', sans-serif;
     top:885vh;
   }
 
+
   
 
 
@@ -396,7 +397,7 @@ font-family: 'Josefin Sans', sans-serif;
   .page5{
     position: absolute;
     top:980vh;
-    z-index: 10;
+  
   
   }
 

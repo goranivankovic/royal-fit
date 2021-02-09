@@ -11,16 +11,16 @@ export default class Page5 extends Component {
                         <Form>
                         <Form.Group>
     <Form.Label>Enter name</Form.Label>
-    <Form.Control type="text" placeholder="Enter name" />
+    <Form.Control type="text"  placeholder="Enter name" />
 
   </Form.Group>
-  <Form.Group controlId="formBasicEmail">
+  <Form.Group  controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
     <Form.Control type="email" placeholder="Enter email" />
 
   </Form.Group>
 
-  <Form.Group controlId="formBasicPassword">
+  <Form.Group  controlId="formBasicPassword">
     <Form.Label>Password</Form.Label>
     <Form.Control type="password" placeholder="Password" />
   </Form.Group>

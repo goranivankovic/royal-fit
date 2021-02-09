@@ -222,7 +222,7 @@ export default class Navic extends Component {
                                }
                     
                        }}><li className="h5">About</li></Link>     
-                            <Link to="page5" smooth={true} offset={0} duration={1200} onClick={()=>{
+                            <Link to="page5" smooth={true} offset={-50} duration={1200} onClick={()=>{
                                  if(!this.state.laz2){
 
                
