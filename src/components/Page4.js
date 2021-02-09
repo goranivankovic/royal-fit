@@ -30,7 +30,7 @@ export default class Page4 extends Component {
     {translateX: 0},
     {translateY: 0},
  
-  ]} duration={1400}  easing={"easeInQuint"}  loop={true} delay={2500}><h3 className="text-primary">What we do</h3></Anime>     
+  ]} duration={1400}  easing={"easeInQuint"}  loop={true} delay={2500}><h3 className="text-primary hz">What we do</h3></Anime>     
                         
                         </Col>
                         <Col lg={9} xs={12}>
