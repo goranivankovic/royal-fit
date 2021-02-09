@@ -37,7 +37,7 @@ export default class Page3 extends Component {
   <Card.Img variant="top" src={women} data-aos="fade-up"  data-aos-duration="1000"  data-aos-easing="ease-in-out"   data-aos-mirror="true"
     data-aos-once="false"/>
   <Card.Body>
-    <Card.Title className="text-warning">Women Workout</Card.Title>
+    <Card.Title className="text-primary">Women Workout</Card.Title>
     <Card.Text>
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
@@ -56,7 +56,7 @@ export default class Page3 extends Component {
   <Card.Img variant="top" src={men} data-aos="fade-down"  data-aos-duration="1000"  data-aos-easing="ease-in-out"   data-aos-mirror="true"
     data-aos-once="false"/>
   <Card.Body>
-    <Card.Title className="text-warning">Strength Training</Card.Title>
+    <Card.Title className="text-primary">Strength Training</Card.Title>
     <Card.Text>
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
@@ -74,7 +74,7 @@ export default class Page3 extends Component {
   <Card.Img variant="top" src={body2} data-aos="fade-up"  data-aos-duration="1000"  data-aos-easing="ease-in-out"   data-aos-mirror="true"
     data-aos-once="false" />
   <Card.Body>
-    <Card.Title className="text-warning">Bodybuilding</Card.Title>
+    <Card.Title className="text-primary">Bodybuilding</Card.Title>
     <Card.Text>
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
@@ -92,7 +92,7 @@ export default class Page3 extends Component {
   <Card.Img variant="top" src={run} data-aos="fade-down"  data-aos-duration="1000"  data-aos-easing="ease-in-out"   data-aos-mirror="true"
     data-aos-once="false"  />
   <Card.Body>
-    <Card.Title className="text-warning">Cardio Training</Card.Title>
+    <Card.Title className="text-primary">Cardio Training</Card.Title>
     <Card.Text>
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
