@@ -42,7 +42,7 @@ export default class Navic extends Component {
        })
 
         
-     },1500)
+     },2000)
 
      
     }
@@ -301,7 +301,7 @@ export default class Navic extends Component {
     <Col>
  
    
-  <h2 className="text-center text-primary">{this.state.textAnimacija} </h2>
+  <h2 className="text-center text-primary">{this.state.textAnimacija}</h2>
 
    
     </Col>
