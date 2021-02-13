@@ -22,7 +22,7 @@ export default class Page4 extends Component {
                     <Row className="page4Row">
                       
                         <Col className="" lg={3} xs={6}>
-                            <br></br>
+                       
                    <Anime   keyframes={[
    
     {translateX:150},

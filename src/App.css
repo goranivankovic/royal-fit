@@ -261,11 +261,6 @@ font-family: 'Josefin Sans', sans-serif;
 
 
 
-
-
-
-
-
 @media only screen and (max-width: 994px) {
   .page2 {
     height: 200vh;
@@ -276,12 +271,12 @@ font-family: 'Josefin Sans', sans-serif;
   }
   .page4{
     position: absolute;
-    top: 530vh;
+    top: 480vh;
     height: 120vh;
   }
   .page5{
     position: absolute;
-    top: 650vh;
+    top: 600vh;
     
   }
 
@@ -299,12 +294,12 @@ font-family: 'Josefin Sans', sans-serif;
   }
   .page4{
     position: absolute;
-    top: 950vh;
+    top: 700vh;
   
   }
   .page5{
     position: absolute;
-    top: 1100vh;
+    top:870vh;
   
   }
 
@@ -320,42 +315,43 @@ font-family: 'Josefin Sans', sans-serif;
 
   .page4{
     position: absolute;
-    top: 960vh;
+    top: 700vh;
  
   }
   .page5{
     position: absolute;
-    top:1100vh;
+    top:850vh;
   
   }
 
+}
+
   
 
 
-}
 
 
-@media only screen and (max-width: 500px) {
+ @media only screen and (max-width: 500px) {
 
-  .page4{
+  /* .page4{
     position: absolute;
     top: 920vh;
  
-  }
+  } */
   .hz{
     font-size: 1.3em;
   }
-  .page5{
+  /* .page5{
     position: absolute;
     top:1050vh;
   
-  }
+  }  */
 
   
 
 
-}
-
+} 
+/* 
 @media only screen and (max-width: 480px) {
 
   .page4{
@@ -392,6 +388,7 @@ font-family: 'Josefin Sans', sans-serif;
     position: absolute;
     top: 860vh;
     /* height: 170vh; */
+/*     
   }
 
   .page5{
@@ -467,13 +464,12 @@ font-family: 'Josefin Sans', sans-serif;
   
 
 
-} 
+}  
+
+  
 
 
-
-
-
-
+ */
 
 
 

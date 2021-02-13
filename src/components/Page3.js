@@ -20,9 +20,9 @@ export default class Page3 extends Component {
         return (
             <div className="page3" id="page3">
                 <br></br>
-                    <br></br>
-                    <br></br>
-           
+                   <br></br>
+                    <br></br> 
+            
                 <Container>
                     <Row>
                     
@@ -34,7 +34,7 @@ export default class Page3 extends Component {
                         <Col lg={3} md={6}>
                         <br></br>
                         <Card>
-  <Card.Img variant="top" src={women} data-aos="fade-up"  data-aos-duration="1000"  data-aos-easing="ease-in-out"   data-aos-mirror="true"
+  <Card.Img variant="top" className="slika2" src={women} data-aos="fade-up"  data-aos-duration="1000"  data-aos-easing="ease-in-out"   data-aos-mirror="true"
     data-aos-once="false"/>
   <Card.Body>
     <Card.Title className="text-primary">Women Workout</Card.Title>
@@ -53,7 +53,7 @@ export default class Page3 extends Component {
                         <Col lg={3} md={6}>
                         <br></br>
                         <Card>
-  <Card.Img variant="top" src={men} data-aos="fade-down"  data-aos-duration="1000"  data-aos-easing="ease-in-out"   data-aos-mirror="true"
+  <Card.Img variant="top" className="slika2" src={men} data-aos="fade-down"  data-aos-duration="1000"  data-aos-easing="ease-in-out"   data-aos-mirror="true"
     data-aos-once="false"/>
   <Card.Body>
     <Card.Title className="text-primary">Strength Training</Card.Title>
@@ -71,7 +71,7 @@ export default class Page3 extends Component {
                         <Col lg={3} md={6}>
                         <br></br>
                         <Card>
-  <Card.Img variant="top" src={body2} data-aos="fade-up"  data-aos-duration="1000"  data-aos-easing="ease-in-out"   data-aos-mirror="true"
+  <Card.Img variant="top" className="slika2" src={body2} data-aos="fade-up"  data-aos-duration="1000"  data-aos-easing="ease-in-out"   data-aos-mirror="true"
     data-aos-once="false" />
   <Card.Body>
     <Card.Title className="text-primary">Bodybuilding</Card.Title>
@@ -89,7 +89,7 @@ export default class Page3 extends Component {
                         <Col>
                         <br></br>
                         <Card>
-  <Card.Img variant="top" src={run} data-aos="fade-down"  data-aos-duration="1000"  data-aos-easing="ease-in-out"   data-aos-mirror="true"
+  <Card.Img variant="top" className="slika2" src={run} data-aos="fade-down"  data-aos-duration="1000"  data-aos-easing="ease-in-out"   data-aos-mirror="true"
     data-aos-once="false"  />
   <Card.Body>
     <Card.Title className="text-primary">Cardio Training</Card.Title>
